@@ -5,6 +5,11 @@
   font-family: sans-serif;
 }
 
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
 h1 {
   color: white;
   font-size: 80px;
@@ -53,9 +58,12 @@ h2 {
 
 main {
   text-align: center;
+  display: inline-block;
+  margin-top: 20px;
 }
 nav {
   display: inline-block;
+  width: 200px;
 }
 
 a[href="#"] {
@@ -64,7 +72,7 @@ a[href="#"] {
 }
 nav > a {
   display: block;
-  width: 200px;
+  width: 50px;
   margin: 2rem;
   text-align: center;
 }
@@ -79,7 +87,7 @@ article > div {
 }
 
 article > img {
-  height: 400px;
+  height: 300px;
   display: block;
 }
 
