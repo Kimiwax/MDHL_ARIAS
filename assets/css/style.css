@@ -5,6 +5,11 @@
   font-family: sans-serif;
 }
 
+h1 {
+  color: white;
+  font-size: 80px;
+  text-shadow: 5px 5px black;
+}
 header {
   background-image: url(../img/design1_image2.jpg);
   background-size: cover;
@@ -38,4 +43,44 @@ div {
   text-align: center;
   margin-left: 160px;
   margin: 0px auto;
+}
+
+main {
+  text-align: center;
+}
+nav {
+  display: inline-block;
+}
+
+a[href="#"] {
+  color: black;
+  text-decoration: none;
+}
+nav > a {
+  display: block;
+  width: 200px;
+  margin: 2rem;
+  text-align: center;
+}
+
+article {
+  display: inline;
+}
+
+article > div {
+  margin: 0px auto;
+}
+
+article > img {
+  height: 500px;
+}
+
+div > p {
+  margin-bottom: 5px;
+}
+
+.container-events {
+  display: block;
+  text-align: left;
+  margin: 30px;
 }
