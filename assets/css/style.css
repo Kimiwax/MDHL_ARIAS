@@ -18,6 +18,7 @@ h1 {
 
 .p-events {
   margin-left: 28px;
+  margin-top: 5px;
 }
 header {
   background-image: url(../img/design1_image2.jpg);
@@ -29,17 +30,14 @@ header {
   text-align: center;
 }
 
-.container {
+.container-text-logo {
   background-color: black;
   width: 100%;
   color: white;
   text-align: center;
   position: relative;
   display: inline-block;
-}
-
-.container > div {
-  margin: 10px;
+  padding: 10px;
 }
 
 h2 {
@@ -94,17 +92,9 @@ article {
   text-align: left;
 }
 
-article > div {
-  margin: 0px auto;
-}
-
 main > img {
   height: 300px;
   text-align: center;
-}
-
-div > p {
-  margin-bottom: 5px;
 }
 
 .container-events,
@@ -128,6 +118,6 @@ div > p {
   margin-top: 20px;
 }
 
-.prueba {
+.container-nav-main {
   text-align: center;
 }
