@@ -94,15 +94,7 @@ main > img {
 .container-about,
 .container-contact {
   margin: 30px;
-  width: 600px;
-}
-
-.container-about {
-  width: 680px;
-}
-
-.container-contact {
-  width: 422px;
+  width: 660px;
 }
 
 .paragraph-contact {
@@ -113,4 +105,25 @@ main > img {
   /* text-align: center; */
   display: flex;
   justify-content: center;
+}
+
+.container-list {
+  margin: 3rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+}
+
+.section-rules {
+  width: 60rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+dt {
+  font-weight: bold;
+}
+
+#rulesBackground {
+  background-image: url(../img/hockeyPrueba.jpg);
 }
