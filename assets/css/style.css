@@ -6,7 +6,7 @@
 }
 
 body {
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
 }
 
@@ -23,9 +23,9 @@ h1 {
 header {
   background-image: url(../img/design1_image2.jpg);
   background-size: cover;
-  background-position: 0 40%;
+  background-position: 0 30%;
   max-width: 100%;
-  min-height: 20vh;
+  min-height: 40vh;
   max-height: 20vh;
   text-align: center;
 }
@@ -35,9 +35,9 @@ header {
   width: 100%;
   color: white;
   text-align: center;
-  position: relative;
-  display: inline-block;
-  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h2 {
@@ -46,25 +46,23 @@ h2 {
 
 #logo {
   height: 90px;
-  position: absolute;
-  right: 100px;
-  top: -35px;
+  position: relative;
+  right: 10rem;
 }
 
 #subtitulo {
   width: 300px;
-  margin: 0px auto;
+  flex: 1;
 }
 
 main {
-  text-align: center;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin-top: 20px;
+  margin-bottom: 300px;
 }
 nav {
-  display: inline-block;
-  position: relative;
-  top: -370px;
+  margin-top: 0.6rem;
 }
 
 .nav-a {
@@ -81,27 +79,20 @@ a[href="#"] {
   text-decoration: none;
 }
 nav > a {
-  display: block;
+  display: flex;
   font-size: 18px;
   margin: 2rem;
-  text-align: center;
-}
-
-article {
-  display: inline-block;
-  text-align: left;
+  flex-direction: column;
 }
 
 main > img {
-  height: 300px;
-  text-align: center;
+  height: 20rem;
+  object-fit: cover;
 }
 
 .container-events,
 .container-about,
 .container-contact {
-  display: block;
-  text-align: left;
   margin: 30px;
   width: 600px;
 }
@@ -119,5 +110,7 @@ main > img {
 }
 
 .container-nav-main {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
 }
