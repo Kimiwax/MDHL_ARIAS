@@ -63,6 +63,7 @@ main {
   flex-direction: column;
   margin-top: 20px;
   flex-basis: 50%;
+  padding-bottom: 5rem;
 }
 nav {
   margin-top: 0.6rem;
@@ -119,7 +120,6 @@ p > a {
   background-image: url(../img/backgroundGames.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 80vh;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -128,10 +128,13 @@ p > a {
   margin: 3rem;
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(5px);
+  text-align: justify;
 }
 
 .section-rules {
   width: 60rem;
+  margin: 15px;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,10 +142,29 @@ p > a {
 
 dt {
   font-weight: bold;
+  margin: 2rem;
 }
 
-#rulesBackground {
-  background-image: url(../img/hockeyPrueba.jpg);
+dd {
+  margin: 2rem;
+}
+
+dl,
+ol {
+  margin: 1rem 0 1rem;
+}
+
+ul,
+li {
+  margin: 2rem;
+}
+
+ol > li {
+  margin: 2rem;
+}
+
+#subRules {
+  margin: 2rem;
 }
 
 .section-tables {
