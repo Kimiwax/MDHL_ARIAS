@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -218,4 +218,120 @@ thead {
 #tableTitle {
   color: white;
   margin-top: 3rem;
+}
+
+#headerForm {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 4rem;
+}
+
+#formRegistration {
+  width: 55rem;
+}
+
+form {
+  color: white;
+  background-color: #002132;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 2rem;
+  box-shadow: 5px 5px 10px 1px #000;
+  flex-wrap: wrap;
+}
+
+form > fieldset {
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+
+  background-color: rgba(17, 25, 40, 0.56);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+legend {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+#streetAddress {
+  width: 30rem;
+}
+input,
+label {
+  border-radius: 1rem;
+  font-size: 18px;
+}
+
+input {
+  accent-color: #eac100;
+  padding-left: 1rem;
+}
+
+input:focus {
+  text-align: center;
+  border-color: #eac100;
+  outline: none;
+}
+
+select {
+  font-size: 18px;
+  width: 15rem;
+  text-align: center;
+}
+
+#fieldsetSizes {
+  height: auto;
+}
+
+#fieldsetPermission {
+  height: auto;
+  padding: 1rem;
+  text-align: justify;
+}
+
+#fieldsetPermission > input {
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 2px solid white;
+}
+
+#fieldsetSchool,
+#fieldsetPosition {
+  height: 6rem;
+}
+
+#fieldsetSignature {
+  margin-top: 1.5rem;
+  border: none;
+}
+
+#fieldsetSignature > input {
+  color: white;
+  width: 30rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px white solid;
+  background-color: transparent;
+}
+#dateSignature {
+  width: 15rem !important;
+  color: white !important;
+}
+
+#buttonSubmit {
+  height: 2.5rem;
+  width: 40rem;
+  margin: 0 auto;
+  margin-top: 2rem;
 }
