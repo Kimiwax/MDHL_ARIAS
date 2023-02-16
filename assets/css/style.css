@@ -63,6 +63,8 @@ main {
   margin-top: 20px;
   flex-basis: 50%;
   padding-bottom: 5rem;
+  flex-grow: 1;
+  align-items: center;
 }
 nav {
   margin-top: 0.6rem;
@@ -131,7 +133,7 @@ p > a {
 }
 
 .section-rules {
-  width: 60rem;
+  width: 70vw;
   margin: 15px;
   color: white;
   display: flex;
@@ -225,6 +227,7 @@ thead {
   text-align: center;
   font-size: 25px;
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 #formRegistration {
