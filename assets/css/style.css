@@ -7,6 +7,7 @@
 
 body {
   height: 100vh;
+  width: 100vw;
 }
 
 h1 {
@@ -372,4 +373,46 @@ h4 {
 
 iframe {
   border-radius: 1rem;
+}
+
+@media screen and (max-width: 919px) {
+  header {
+    text-align: center;
+    min-height: 30vh;
+    background-position: 0 20%;
+  }
+
+  header > h1 {
+    font-size: 50px;
+  }
+
+  #logo {
+    height: 55px;
+    position: absolute;
+    right: 3rem;
+  }
+
+  .container-nav-main {
+    display: flex;
+    background-image: url(../img/backgroundGames.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav > a {
+    display: flex;
+    font-size: 18px;
+    margin: 2rem;
+    color: #eac100;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  header {
+    text-align: center;
+  }
 }
