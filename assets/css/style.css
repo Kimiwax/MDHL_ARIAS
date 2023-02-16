@@ -219,7 +219,9 @@ thead {
 
 #tableTitle {
   color: white;
-  margin-top: 3rem;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 1rem;
 }
 
 #headerForm {
@@ -337,4 +339,37 @@ select {
   width: 40rem;
   margin: 0 auto;
   margin-top: 2rem;
+}
+
+.container-game-locations {
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(5px);
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  width: 70vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gameLocations {
+  margin: 1rem;
+}
+
+h4 {
+  text-align: center;
+  color: white;
+  padding-bottom: 1rem;
+  font-size: 20px;
+}
+
+#locationsTitle {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 1rem;
+}
+
+iframe {
+  border-radius: 1rem;
 }
