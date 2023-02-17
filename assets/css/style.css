@@ -7,7 +7,6 @@
 
 body {
   height: 100vh;
-  width: 100vw;
 }
 
 h1 {
@@ -20,6 +19,7 @@ h1 {
   margin-left: 28px;
   margin-top: 5px;
 }
+
 header {
   background-image: url(../img/design1_image2.jpg);
   background-size: cover;
@@ -60,13 +60,21 @@ h2 {
 
 main {
   display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  flex-basis: 50%;
+  background-image: url(../img/backgroundGames.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-direction: row;
   padding-bottom: 5rem;
+  align-items: flex-start;
+}
+
+main>div {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
+
 nav {
   margin-top: 0.6rem;
 }
@@ -84,7 +92,8 @@ a[href="#"] {
   font-weight: bold;
   text-decoration: none;
 }
-nav > a {
+
+nav>a {
   display: flex;
   font-size: 18px;
   margin: 2rem;
@@ -92,16 +101,16 @@ nav > a {
   color: #eac100;
 }
 
-main > img {
+div>img {
   max-height: 25rem;
-  max-width: 40rem;
+  max-width: 30rem;
   object-fit: cover;
 }
 
 .container-events,
 .container-about,
 .container-contact {
-  margin: 15px;
+  margin: 30px;
   width: 660px;
   color: white;
 }
@@ -109,7 +118,8 @@ main > img {
 #imgAbout {
   background-position: 0 20% !important;
 }
-p > a {
+
+p>a {
   color: #eac100;
 }
 
@@ -161,7 +171,7 @@ li {
   margin: 2rem;
 }
 
-ol > li {
+ol>li {
   margin: 2rem;
 }
 
@@ -174,6 +184,7 @@ ol > li {
   flex-direction: column;
   align-items: center;
 }
+
 table {
   border-collapse: collapse;
   table-layout: auto;
@@ -209,7 +220,7 @@ thead {
   border-radius: 1.5rem;
 }
 
-.container-additional > p {
+.container-additional>p {
   margin: 1.5rem;
   color: rgb(219, 216, 216);
 }
@@ -248,7 +259,7 @@ form {
   flex-wrap: wrap;
 }
 
-form > fieldset {
+form>fieldset {
   height: 5rem;
   display: flex;
   flex-direction: row;
@@ -271,6 +282,7 @@ legend {
 #streetAddress {
   width: 30rem;
 }
+
 input,
 label {
   border-radius: 1rem;
@@ -304,7 +316,7 @@ select {
   text-align: justify;
 }
 
-#fieldsetPermission > input {
+#fieldsetPermission>input {
   background-color: transparent;
   border: 0;
   border-radius: 0;
@@ -321,7 +333,7 @@ select {
   border: none;
 }
 
-#fieldsetSignature > input {
+#fieldsetSignature>input {
   color: white;
   width: 30rem;
   margin: 0.5rem;
@@ -330,6 +342,7 @@ select {
   border-bottom: 1px white solid;
   background-color: transparent;
 }
+
 #dateSignature {
   width: 15rem !important;
   color: white !important;
@@ -382,7 +395,7 @@ iframe {
     background-position: 0 20%;
   }
 
-  header > h1 {
+  header>h1 {
     font-size: 50px;
   }
 
@@ -392,16 +405,8 @@ iframe {
     right: 3rem;
   }
 
-  .container-nav-main {
-    display: flex;
-    background-image: url(../img/backgroundGames.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex-direction: column;
-    align-items: center;
-  }
 
-  nav > a {
+  nav>a {
     display: flex;
     font-size: 18px;
     margin: 2rem;
